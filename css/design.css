@@ -1,0 +1,107 @@
+/* 디자인 섹션 */
+section#design { background-color: #000000; } 
+section#design article { width: 100% } 
+section#design .d_text h2 { margin-top: 100px; font-size: 1.3em; position: relative; color:#000000; } 
+section#design .d_text p { margin-top: 20px } 
+.d_text { display: inline-block; margin-top: 150px; width: 100%; } 
+.d_text p { line-height: 25px; } 
+.d_content { display: inline-block; margin-top: 100px; width: 100% } 
+
+/* keyword */
+#d_keyword { height: 850px; background-color: #FFD976 } 
+.key1, .key2, .key3, .box-open-button { border-radius: 100%; width: 250px; height: 250px; padding-top: 105px; position: absolute; box-shadow: #ffffff 0 0 1px 5px; top: 20px; line-height: 30px; text-align: center; font-size: 30px; transform: translate3d(0, 0, 0); transition: transform ease-out 200ms; } 
+.box-open-button { background: #fff; color: #000; } 
+.key1, .key2, .key3 { background: #FF3E7A; color: #ffffff; box-shadow: #fff 0 0 0 0; } 
+#keyword_box_wrap { width: 920px; text-align: center; margin: 0 auto; } 
+
+.box-open1, .box-open2, .box-open3 { display: none; } 
+.keyword_box { position: relative; margin: 0 25px 0 25px; width: 250px; height: 250px; display: inline-block; box-sizing: border-box; font-size: 20px; text-align: left; } 
+.box-open-button { z-index: 3; transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); transition-duration: 400ms; cursor: pointer; } 
+.box-open-button p { font-size: 16px; color: #8f8f8f; } 
+.box-open-button:hover { transform: scale(0.8, 0.8) translate3d(0, 0, 0); box-shadow: #fff 0 0 0 0; background-color: #ffffffbb; border: 2px solid #fff; backdrop-filter: blur(3px); } 
+
+/* key1 */
+.box-open1:hover ~ .key1 { transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33); font-size: 40px; } 
+.box-open1:hover ~ .key1:nth-child(3) { transition-duration: 180ms; transform: translate3d(-120px, -120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+.box-open1:hover ~ .key1:nth-child(4) { transition-duration: 280ms; transform: translate3d(120px, -120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+.box-open1:hover ~ .key1:nth-child(5) { transition-duration: 380ms; transform: translate3d(120px, 120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+.box-open1:hover ~ .key1:nth-child(6) { transition-duration: 480ms; transform: translate3d(-120px, 120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+
+/* key2 */
+.box-open2:hover ~ .key2, .box-open2:hover ~ .key2,.box-open3:hover ~ .key2 { transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33); font-size: 40px; } 
+.box-open2:hover ~ .key2:nth-child(3) { transition-duration: 180ms; transform: translate3d(-120px, -120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+.box-open2:hover ~ .key2:nth-child(4) { transition-duration: 280ms; transform: translate3d(120px, -120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+.box-open2:hover ~ .key2:nth-child(5) { transition-duration: 380ms; transform: translate3d(120px, 120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+.box-open2:hover ~ .key2:nth-child(6) { transition-duration: 480ms; transform: translate3d(-120px, 120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+
+/* key3 */
+.box-open3:hover ~ .key3, .box-open2:hover ~ .key3,.box-open3:hover ~ .key3 { transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33); font-size: 40px; } 
+.box-open3:hover ~ .key3:nth-child(3) { transition-duration: 180ms; transform: translate3d(-120px, -120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+.box-open3:hover ~ .key3:nth-child(4) { transition-duration: 280ms; transform: translate3d(120px, -120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+.box-open3:hover ~ .key3:nth-child(5) { transition-duration: 380ms; transform: translate3d(120px, 120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+.box-open3:hover ~ .key3:nth-child(6) { transition-duration: 480ms; transform: translate3d(-120px, 120px, 0) scale(0.5, 0.5); padding-top: 110px; } 
+
+
+
+
+
+/* color */
+#d_color { height: 750px; background-color: #fff; } 
+#color_wrap1 { float: left; line-height: 160px; text-align: center; color:#fff; } 
+#color_wrap2 { float: right; line-height: 30px; text-align: center; color:#fff; } 
+#color_wrap2 p:nth-child(1) { margin-top: 50px; } 
+
+.color_o { display: inline-block; width: 160px; height: 160px; margin-left: -30px; border-radius: 50%; backdrop-filter: blur(3px); } 
+#color1 { margin-left: 0; background-color: #DADADAce; } 
+#color2 { background-color: #ffd876ce; } 
+#color3 { background-color: #FF988Dce; } 
+#color4 { background-color: #FF779Bce; } 
+#color5 { background-color: #FF3E7Ace; } 
+
+#color6 { margin-left: 0; background: linear-gradient(#FF8AA9ce, #FFD976ce); } 
+#color7 { background: linear-gradient(#C1E41Cce, #FFE76Bce); } 
+#color8 { background: linear-gradient(#6CC8FFce, #72F4FCce); } 
+
+
+
+/* typography */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100; 300; 400; 500; 700; 900&display=swap'); @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css'); #d_typography { height: 850px; background-color: #FF779B; } 
+#d_typography .d_content { padding: 0 50px; } 
+table { border-collapse:collapse; } 
+table#typo1 th { padding: 10px 50px 10px 0; } 
+table#typo1 tr, table#typo1 td { padding: 5px 50px 5px 0; text-align: left; } 
+table#typo2 tr, table#typo2 td { padding: 5px 50px 5px 0; text-align: left; } 
+th { font-size: 40px; font-weight: 800; padding: 20px 0; } 
+#typo1 { float: left; font-family: 'Noto Sans KR', sans-serif; color: #fff; } 
+#typo2 { float: right; font-family: 'NanumSquare'; color: #fff; } 
+#typo1_B,#typo1_R,#typo2_B,#typo2_R,#typo2_L { font-size: 30px; } 
+
+#typo1_B { font-weight: 900; } 
+#typo1_R { font-weight: 100; } 
+
+#typo2_B { font-weight: 800; } 
+#typo2_R { font-weight: 500; } 
+#typo2_L { font-weight: 100; } 
+
+#gap1 { height: 62px; } 
+#gap2 { height: 20px; } 
+.typo_ex { color: #ffffffab; font-size: 25px; line-height: 35px; font-weight: 500; text-align: left; } 
+
+
+
+/* logo */
+#d_logo { height: 900px; background-color: #FFD976; } 
+#logo_warp { margin: 0 auto; width: 870px; } 
+#logo_warp img { margin: 0 40px; } 
+
+
+
+/* icon */
+#d_icon { height: 900px; background-color: #fff; } 
+table#icon_box1, table#icon_box2 { margin: 0 auto; } 
+table#icon_box1 tr, table#icon_box1 td { padding: 3px 20px; text-align: center; } 
+table#icon_box2 tr, table#icon_box2 td { padding: 3px 20px; text-align: center; } 
+table#icon_box2 { margin-top: 40px; } 
+
+#icon_box1 img { width: 100px; } 
+#icon_box2 img { width: 148px; } 

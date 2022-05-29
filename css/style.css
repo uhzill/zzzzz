@@ -1,0 +1,91 @@
+@font-face { 
+ font-family: 'Cafe24Shiningstar'; 
+ src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff'); 
+ } 
+@font-face { 
+ font-family: 'GmarketSansMedium'; 
+ src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff'); 
+ } 
+ @font-face { 
+ font-family: 'GmarketSansBold'; 
+ src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff'); 
+ font-weight: normal; 
+ font-style: normal; 
+ } 
+
+* { 
+ margin: 0; 
+ padding: 0; 
+ box-sizing: border-box; 
+ } 
+
+.wrap_1200 { 
+ width: 1200px; 
+ margin: 0 auto; 
+ /* border: 1px solid #000; */
+ } 
+
+.blind { 
+ position: absolute; 
+ width: 1px; 
+ height: 1px; 
+ clip: rect(0 0 0 0); 
+ overflow: hidden; 
+ } 
+/* video, img { 
+ z-index: 0; 
+ } */
+
+body { 
+ font-family: 'GmarketSansMedium'; 
+ overflow-x: hidden; 
+ max-width: 100%; 
+ overflow:hidden; 
+ cursor: none; 
+ } 
+
+h1 { 
+ font-size: 32px; 
+ font-weight: 800; 
+ } 
+h2 { 
+ font-weight: 800; 
+ } 
+h3 { 
+ font-weight: 800; 
+ } 
+
+
+/* 기본섹션 */
+section:not(#sectionPin) { 
+ width: 100%; 
+ position: relative; 
+ place-items: center; 
+ overflow: hidden; 
+ } 
+
+
+
+/* 마우스 커서 커스텀 */
+.cursor { 
+ width: 40px; 
+ height: 40px; 
+ border: 2px solid #fff; 
+ border-radius: 50%; 
+ position: absolute; 
+ z-index: 1000; 
+ transform: translate(-50%, -50%); 
+ pointer-events: none; 
+ transition: all 0.3s ease; 
+ transition-property: background, transform; 
+ transform-origin: 100% 100%; 
+ backdrop-filter: blur(2px) contrast(90%); 
+ background-size: cover; 
+ } 
+
+/* 마우스 오버됐을 때 커스텀 커서 스타일 */
+/* .link-grow { 
+ transform: scale(2.5); 
+ background-color: #ff0000; 
+ } 
+

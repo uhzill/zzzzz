@@ -1,0 +1,33 @@
+/* 비디오 섹션 */
+section#video { height: 900px; background-color: #ffffff; } 
+section#video .wrap_1200 { margin-top: 100px; } 
+iframe { margin-top: 50px; width: 1200px; height: 675px; } 
+
+
+
+/* 목업 */
+section#mockup { height: 900px; background-color: #f6f6f6; } 
+
+
+
+/* 팀 섹션 */
+section#team { background-color: #FFD976; height: 900px; } 
+section#team .wrap_1200 { margin-top: 100px; } 
+#team h2 { font-size: 25px; margin-top: 80px; } 
+#team h4 { font-size: 23px; margin-top: 5px; } 
+#team h5 { font-size: 15px; margin-top: 5px; } 
+#team p { font-size: 15px; margin: 13px; color: #000; } 
+#team a { font-size: 12px; color: #000; text-decoration: 2px underline dashed #ff4c7c77; text-underline-offset : 3px; } 
+#team a:hover { text-decoration: 2px underline #ff346ae4; transition-duration: .3s; } 
+
+#team_wrap { width: 980px; margin: 0 auto; text-align: center; } 
+.team_box { width: 300px; margin: 50px 5px 0 5px; display: inline-block; } 
+.team_box img { width: 200px; border-radius: 50%; margin: 25px; border: 3px solid #fff; } 
+
+
+
+/* 푸터 */
+footer { width: 100%; height: 150px; background-color: #FF6595; color: #fff; } 
+#footer_article1 { float: left; padding-top: 30px; } 
+#footer_article2 { float: right; text-align: right; } 
+#footer_article2 p { margin: 100px 30px 0 0; font-size: 14px; } 

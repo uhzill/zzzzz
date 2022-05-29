@@ -1,0 +1,17 @@
+#sectionPin { min-height: 100vh; overflow: hidden; display: flex; left: 0; background-color: #FF779B; color:#fff; } 
+#sectionPin .wrap_1200 { margin-top: 350px; } 
+#sectionPin article { min-width: 1920px; min-height: 100vh; background-image: url("../img/ser_bg.png"); background-size: contain; background-repeat: repeat-y; } 
+
+
+#sectionPin h1 { font-size: 45px; } 
+#sectionPin h2 { font-size: 22px; font-weight: 600; color: #ffffffa0; } 
+#sectionPin h3 { font-size: 25px; font-weight: 100; margin-top: 50px; } 
+#sectionPin h4 { font-size: 30px; font-weight: 900; margin-top: 30px; } 
+
+
+.service { float: left; width: 60%; height: 410px; } 
+#sectionPin .wrap_1200 img { float: right; margin-top: -200px; } 
+
+.pin-wrap { height: 100vh; display: flex; justify-content: flex-start; align-items: center; } 
+.pin-wrap article { width: 100%; } 
+/* .pin-wrap > * { min-width: 60vw; padding: 0 5vw; } */
